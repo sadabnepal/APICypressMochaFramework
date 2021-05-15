@@ -1,0 +1,11 @@
+Explore local-storage
+
+TODO
+-----
+Create User in reqres --> Extract ID
+Pass that ID in get request to fetch User
+Delete created user
+
+Move baseURL to outside test
+user Faker API to generate random data for payload
+maintain all webservices URL in one place
