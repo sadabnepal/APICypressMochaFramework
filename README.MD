@@ -8,8 +8,8 @@ This is a sample project that uses Cypress to test backend services.
 ## Getting Started
 Clone Repository
 ```bash
-1. git clone https://github.com/sadabnepal/PlaywrightTSJestFramework.git
-2. Navigate to PlaywrightTSJestFramework
+1. git clone https://github.com/sadabnepal/CypressAPITest.git
+2. Navigate to CypressAPITest
 ```
 
 Install the dependencies:
@@ -19,15 +19,9 @@ npm install
 
 Run e2e tests:
 ```bash
-npm test
+npm run cypress:open   (it will open cypress terminal, click on spec you want to run)
 ```
 
-## Key Features
-        - Faker API
-        - Jest Framework
-        - Jest HTML Report
-        - Page Object Design Pattern
-
 ## Sample Report
-![image](https://user-images.githubusercontent.com/65847528/117562610-dbed4680-b0bd-11eb-9f07-1b4cf02c02d4.png)
+![image](https://user-images.githubusercontent.com/65847528/118373951-0f0c6a00-b5d7-11eb-9f4d-24c333677a3a.png)
 
