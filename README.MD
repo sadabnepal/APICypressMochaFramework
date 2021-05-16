@@ -8,8 +8,8 @@ This is a sample project that uses Cypress to test backend services.
 ## Getting Started
 Clone Repository
 ```bash
-1. git clone https://github.com/sadabnepal/CypressAPITest.git
-2. Navigate to CypressAPITest
+1. git clone https://github.com/sadabnepal/CypressMochaAPITest.git
+2. Navigate to CypressMochaAPITest
 ```
 
 Install the dependencies:
