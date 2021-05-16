@@ -1,4 +1,4 @@
-# Cypress API Mocha Framework
+# Cypress API Test Mocha Framework
 This is a sample project that uses Cypress to test backend services.
 
 ## Requirements
@@ -17,11 +17,28 @@ Install the dependencies:
 npm install
 ```
 
-Run e2e tests:
+Run test:
 ```bash
-npm run cypress:open   (it will open cypress terminal, click on spec you want to run)
+npm test
+```
+
+## Folder structure
+```
+├───cypress
+│   ├───fixtures
+|   |       └───examples.json
+|   ├───integration
+|   |       └───examples
+|   │   	       └───GetRequests.js
+|   ├───plugins
+|   ├───support
+|   └───videos
+|            └───examples
+├───.gitignore
+├───cypress.json
+├───package.json
+└───README.md
 ```
 
 ## Sample Report
-![image](https://user-images.githubusercontent.com/65847528/118373951-0f0c6a00-b5d7-11eb-9f4d-24c333677a3a.png)
-
+![image](https://user-images.githubusercontent.com/65847528/118400015-83014d80-b67d-11eb-8137-eab498191ed3.png)
